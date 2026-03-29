@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog | Construction Company</title>
+   <script src="./css/tailwind.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+<!-- HERO SECTION -->
+<section class="relative h-[60vh] bg-cover bg-center"
+  style="background-image: url('https://images.unsplash.com/photo-1503387762-592deb58ef4e');">
+  <div class="absolute inset-0 bg-slate-900/70"></div>
+
+  <div class="relative z-10 flex flex-col justify-center items-center h-full text-center px-6">
+    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+      Our Blog & Insights
+    </h1>
+    <p class="text-gray-300 max-w-2xl">
+      Industry trends, expert tips, and construction insights built on experience.
+    </p>
+  </div>
+</section>
+
+<!-- FEATURED POST -->
+<section class="max-w-7xl mx-auto px-6 py-16">
+  <h2 class="text-3xl font-bold mb-10">Featured Article</h2>
+
+  <div class="grid md:grid-cols-2 gap-8 bg-white rounded-xl shadow-lg overflow-hidden">
+    <img src="./images/featuredblobsherpconstrblogpage.png" class="h-80 w-full pt-4 pb-4 ps-4 " alt="Featured blog" class="h-full w-full object-cover">
+
+    <div class="p-8 flex flex-col justify-center">
+      <span class="text-amber-500 font-semibold text-sm mb-2">CONSTRUCTION</span>
+      <h3 class="text-2xl font-bold mb-4">
+        Modern Construction Techniques Shaping the Future
+      </h3>
+      <p class="text-gray-600 mb-6">
+        Discover how modern tools, materials, and planning techniques are redefining
+        efficiency and durability in construction projects.
+      </p>
+
+      <a href="#"
+        class="inline-block bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-md font-medium w-fit">
+        Read More
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG GRID -->
+<section class="max-w-7xl mx-auto px-6 pb-20">
+  <h2 class="text-3xl font-bold mb-10">Latest Posts</h2>
+
+  <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+
+    <!-- BLOG CARD -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+      <img src="./images/projectsharppicture.png" class="h-48 w-full object-cover" alt="">
+      <div class="p-6">
+        <span class="text-xs text-amber-500 font-semibold">PROJECTS</span>
+        <h3 class="font-bold text-lg mt-2 mb-3">
+          How to Plan a Successful Building Project
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          A step-by-step guide to ensuring efficiency, safety, and quality.
+        </p>
+        <div class="flex justify-between text-sm text-gray-500">
+          <span>May 2026</span>
+          <a href="#" class="text-amber-500 font-medium">Read →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOG CARD -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+      <img src="./images/designsharppicture.png" class="h-48 w-full object-cover" alt="">
+      <div class="p-6">
+        <span class="text-xs text-amber-500 font-semibold">DESIGN</span>
+        <h3 class="font-bold text-lg mt-2 mb-3">
+          Why Structural Integrity Matters
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Understanding the foundation of long-lasting buildings.
+        </p>
+        <div class="flex justify-between text-sm text-gray-500">
+          <span>April 2026</span>
+          <a href="#" class="text-amber-500 font-medium">Read →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOG CARD -->
+    <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+      <img src="./images/safetysharppicture.png" class="h-48 w-full object-cover" alt="">
+      <div class="p-6">
+        <span class="text-xs text-amber-500 font-semibold">SAFETY</span>
+        <h3 class="font-bold text-lg mt-2 mb-3">
+          Construction Site Safety Best Practices
+        </h3>
+        <p class="text-gray-600 text-sm mb-4">
+          Ensuring worker safety and project compliance.
+        </p>
+        <div class="flex justify-between text-sm text-gray-500">
+          <span>March 2026</span>
+          <a href="#" class="text-amber-500 font-medium">Read →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- NEWSLETTER CTA -->
+<section class="bg-slate-900 text-white py-16 px-6">
+  <div class="max-w-4xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-4">
+      Stay Updated
+    </h2>
+    <p class="text-gray-400 mb-8">
+      Subscribe to get the latest construction insights and updates.
+    </p>
+
+    <form class="flex flex-col sm:flex-row gap-4 justify-center">
+      <input type="email"
+        placeholder="Enter your email"
+        class="px-6 py-3 rounded-md text-gray-800 w-full sm:w-96 focus:outline-none">
+
+      <button class="bg-amber-500 hover:bg-amber-600 px-6 py-3 rounded-md font-medium">
+        Subscribe
+      </button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
